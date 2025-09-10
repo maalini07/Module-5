@@ -24,6 +24,26 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
    - Display the results of the three operations.
 
 ## 💻 Program 
-Add code here
-## Output Example
+```
+  class Calculation1:  
+      def Summation(self,a,b):  
+          return a+b;  
+  class Calculation2:  
+      def sub(self,a,b):  
+          return a-b;  
+  class Derived(Calculation1,Calculation2):  
+      def Divide(self,a,b):  
+          return a/b;  
+  a=int(input())
+  b=int(input())
+  d = Derived()  
+  print(d.Summation(a,b))  
+  print(d.sub(a,b))  
+  print(d.Divide(a,b))
+```
 
+## Output Example
+<img width="426" height="188" alt="449925616-2125909b-01ca-45eb-9589-e5e4d62a1ba8" src="https://github.com/user-attachments/assets/834f7928-26e5-4f47-99e0-f6f8b37167fc" />
+
+## 🧪 Output
+Thus, the program has executed successfully
